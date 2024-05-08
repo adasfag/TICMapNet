@@ -22,8 +22,8 @@ for End-to-End HD Map Construction</h3>
 
 | Method | Backbone | PV2BEV |BEVDeocder|Lr Schd | mAP| Config | Download |
 | :---: | :---: | :---: | :---: |  :---: |:---: | :---:|:---: |
-| ours_1 | R50 |GKT |VA| 10ep |81.8  |[config](config/fusion/openlane_tiofusionva_r50e24.py) |[model](https://1drv.ms/u/s!AklTOiULSSxpi1lhtUCz53HILIid?e=FXrNrA)|
-| ours_2 | R50 |GKT |DQ| 10ep |82.2  |[config](config/fusion/openlane_tiofusiondq_r50e24.py) |[model](https://1drv.ms/u/s!AklTOiULSSxpi1pLXNxq2qTj8jN2?e=piUU7h)|
+| ours_1 | R50 |GKT |VA| 10ep |61.7  |[config](config/fusion/openlane_tiofusionva_r50e24.py) |[model](https://1drv.ms/u/s!AklTOiULSSxpi1lhtUCz53HILIid?e=FXrNrA)|
+| ours_2 | R50 |GKT |DQ| 10ep |60.6  |[config](config/fusion/openlane_tiofusiondq_r50e24.py) |[model](https://1drv.ms/u/s!AklTOiULSSxpi1pLXNxq2qTj8jN2?e=piUU7h)|
 
 
 
