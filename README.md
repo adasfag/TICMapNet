@@ -1,5 +1,5 @@
 <div align="center">
-<h1>TIOMapNet</h1>
+<h1>TICMapNet</h1>
 <h3>A Tightly Coupled Temporal Fusion Pipeline
 for End-to-End HD Map Construction</h3>
 
