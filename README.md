@@ -11,43 +11,43 @@ for End-to-End HD Map Construction</h3>
 ## Models
 ### TICMapNet
 
-<div align="center"><h4> nuScenes dataset</h4></div>
+<div align="center"><h4> TICMapNet on the nuScenes orignal dataset</h4></div>
 
 | Method | Backbone | PV2BEV |BEVDeocder|Lr Schd | mAP| Config | Download |
 | :---: | :---: | :---: | :---: |  :---: |:---: | :---:|:---: |
 | ours_2 | R50 |GKT |DQ| 24ep |59.0  |[config](config/fusion/nus_tiofuisondq_r50e24.py) |[model](https://1drv.ms/u/s!AklTOiULSSxpi1vwb6Pm9y1B36qn?e=aaOUMx)|
 
 
-<div align="center"><h4> openlane dataset</h4></div>
+<div align="center"><h4> TICMapNet on the openlane dataset</h4></div>
 
 | Method | Backbone | PV2BEV |BEVDeocder|Lr Schd | mAP| Config | Download |
 | :---: | :---: | :---: | :---: |  :---: |:---: | :---:|:---: |
 | ours_1 | R50 |GKT |VA| 10ep |61.7  |[config](config/fusion/openlane_tiofusionva_r50e24.py) |[model](https://1drv.ms/u/s!AklTOiULSSxpi1lhtUCz53HILIid?e=FXrNrA)|
 | ours_2 | R50 |GKT |DQ| 10ep |60.6  |[config](config/fusion/openlane_tiofusiondq_r50e24.py) |[model](https://1drv.ms/u/s!AklTOiULSSxpi1pLXNxq2qTj8jN2?e=piUU7h)|
 
-### TICMapNet_saved_memory
 
-<div align="center"><h4> nuScenes dataset</h4></div>
+<div align="center"><h4> TICMapNet_t on the nuScenes origanl dataset</h4></div>
 
 | Method | Backbone | PV2BEV |BEVDeocder|Lr Schd | mAP| Config | Download |
 | :---: | :---: | :---: | :---: |  :---: |:---: | :---:|:---: |
 | ours_2 | R50 |GKT |DQ| 24ep |57.4  |[config](config/saved_memroy/nus_maptr_fusion_save_memory.py) |[model](https://1drv.ms/u/s!AklTOiULSSxpi1vwb6Pm9y1B36qn?e=aaOUMx)|
 
 
-<div align="center"><h4> openlane dataset</h4></div>
+<div align="center"><h4> TICMapNet_t on the openlane dataset</h4></div>
 
 | Method | Backbone | PV2BEV |BEVDeocder|Lr Schd | mAP| Config | Download |
 | :---: | :---: | :---: | :---: |  :---: |:---: | :---:|:---: |
 | ours_2 | R50 |GKT |VA| 10ep |59.7  |[config](config/saved_memroy/openlane_maptr_fusion_savememory.py) |[model](https://1drv.ms/u/s!AklTOiULSSxpjAemTymfm13wfMQb?e=0Bez0s)|
 
 
-### TICMapNet_supply_results
 
-<div align="center"><h4> nuScenes dataset provided by liu[1]</h4></div>
+<div align="center"><h4> TICMapNet on the nuScenes dataset new split[1]</h4></div>
 
 | Method | Backbone | PV2BEV |BEVDeocder|Lr Schd | mAP| Config | Download |
 | :---: | :---: | :---: | :---: |  :---: |:---: | :---:|:---: |
 | ours_2 | R50 |GKT |DQ| 24ep |28.3  |[config](config/new_split/nus_maptr_fusion_new_split.py) |[model](https://1drv.ms/u/s!AklTOiULSSxpi1vwb6Pm9y1B36qn?e=aaOUMx)|
+
+
 [1]A. Lilja, J. Fu, E. Stenborg, and L. Hammarstrand, "Localization is all you evaluate: Data leakage in online mapping datasets and how to fix it," in CVPR 2024, pp. 22150–22159.
 
 
