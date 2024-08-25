@@ -18,7 +18,7 @@ for End-to-End HD Map Construction</h3>
 | ours_2 | R50 |GKT |DQ| 24ep |59.0  |[config](config/fusion/nus_tiofuisondq_r50e24.py) |[model](https://1drv.ms/u/s!AklTOiULSSxpi1vwb6Pm9y1B36qn?e=aaOUMx)|
 
 
-<div align="center"><h4> Results on the openlane dataset</h4></div>
+<div align="center"><h4> Results on the OpenLane dataset</h4></div>
 
 | Method | Backbone | PV2BEV |BEVDeocder|Lr Schd | mAP| Config | Download |
 | :---: | :---: | :---: | :---: |  :---: |:---: | :---:|:---: |
@@ -33,7 +33,7 @@ for End-to-End HD Map Construction</h3>
 | ours_2 | R50 |GKT |DQ| 24ep |57.4  |[config](config/saved_memroy/nus_maptr_fusion_save_memory.py) |[model](https://1drv.ms/u/s!AklTOiULSSxpjAihTlZliVZ06L7I?e=AqsAfv)|
 
 
-<div align="center"><h4> Results of TICMapNet_t on the openlane dataset</h4></div>
+<div align="center"><h4> Results of TICMapNet_t on the OpenLane dataset</h4></div>
 
 | Method | Backbone | PV2BEV |BEVDeocder|Lr Schd | mAP| Config | Download |
 | :---: | :---: | :---: | :---: |  :---: |:---: | :---:|:---: |
@@ -53,8 +53,7 @@ for End-to-End HD Map Construction</h3>
 
 
 
-## Qualitative results on nuScenes val split and openlane 300 val split
-
+## Qualitative results on nuScenes validation dataset and OpenLane 300 validation dataset
 <div align="center"><h4> TICMapNet maintains stable and robust map construction quality in various driving scenes.</h4></div>
 
 ![nuScenesVisualization](assets/nuScenes_results.png)  
