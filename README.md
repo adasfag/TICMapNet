@@ -41,7 +41,7 @@ for End-to-End HD Map Construction</h3>
 
 
 
-<div align="center"><h4> Results of the nuScenes dataset new split[1]</h4></div>
+<div align="center"><h4> Results on the nuScenes dataset new split[1]</h4></div>
 
 | Method | Backbone | PV2BEV |BEVDeocder|Lr Schd | mAP| Config | Download |
 | :---: | :---: | :---: | :---: |  :---: |:---: | :---:|:---: |
