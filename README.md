@@ -11,14 +11,14 @@ for End-to-End HD Map Construction</h3>
 ## Models
 ### TICMapNet
 
-<div align="center"><h4> TICMapNet on the nuScenes orignal dataset</h4></div>
+<div align="center"><h4> Results on the nuScenes validation dataset</h4></div>
 
 | Method | Backbone | PV2BEV |BEVDeocder|Lr Schd | mAP| Config | Download |
 | :---: | :---: | :---: | :---: |  :---: |:---: | :---:|:---: |
 | ours_2 | R50 |GKT |DQ| 24ep |59.0  |[config](config/fusion/nus_tiofuisondq_r50e24.py) |[model](https://1drv.ms/u/s!AklTOiULSSxpi1vwb6Pm9y1B36qn?e=aaOUMx)|
 
 
-<div align="center"><h4> TICMapNet on the openlane dataset</h4></div>
+<div align="center"><h4> Results on the openlane dataset</h4></div>
 
 | Method | Backbone | PV2BEV |BEVDeocder|Lr Schd | mAP| Config | Download |
 | :---: | :---: | :---: | :---: |  :---: |:---: | :---:|:---: |
@@ -26,14 +26,14 @@ for End-to-End HD Map Construction</h3>
 | ours_2 | R50 |GKT |DQ| 10ep |60.6  |[config](config/fusion/openlane_tiofusiondq_r50e24.py) |[model](https://1drv.ms/u/s!AklTOiULSSxpi1pLXNxq2qTj8jN2?e=piUU7h)|
 
 
-<div align="center"><h4> TICMapNet_t on the nuScenes origanl dataset</h4></div>
+<div align="center"><h4> Results of TICMapNet_t on the nuScenes validation dataset</h4></div>
 
 | Method | Backbone | PV2BEV |BEVDeocder|Lr Schd | mAP| Config | Download |
 | :---: | :---: | :---: | :---: |  :---: |:---: | :---:|:---: |
 | ours_2 | R50 |GKT |DQ| 24ep |57.4  |[config](config/saved_memroy/nus_maptr_fusion_save_memory.py) |[model](https://1drv.ms/u/s!AklTOiULSSxpjAihTlZliVZ06L7I?e=AqsAfv)|
 
 
-<div align="center"><h4> TICMapNet_t on the openlane dataset</h4></div>
+<div align="center"><h4> Results of TICMapNet_t on the openlane dataset</h4></div>
 
 | Method | Backbone | PV2BEV |BEVDeocder|Lr Schd | mAP| Config | Download |
 | :---: | :---: | :---: | :---: |  :---: |:---: | :---:|:---: |
@@ -41,7 +41,7 @@ for End-to-End HD Map Construction</h3>
 
 
 
-<div align="center"><h4> TICMapNet on the nuScenes dataset new split[1]</h4></div>
+<div align="center"><h4> Results of the nuScenes dataset new split[1]</h4></div>
 
 | Method | Backbone | PV2BEV |BEVDeocder|Lr Schd | mAP| Config | Download |
 | :---: | :---: | :---: | :---: |  :---: |:---: | :---:|:---: |
