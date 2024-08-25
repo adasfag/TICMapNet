@@ -57,5 +57,5 @@ for End-to-End HD Map Construction</h3>
 
 <div align="center"><h4> TIOFUSION maintains stable and robust map construction quality in various driving scenes.</h4></div>
 
-![nuScenesVisualization](assets/nuScenes_results.pdf)  
+![nuScenesVisualization](assets/nuScenes_results.png)  
 ![openlaneVisualization](assets/OpenLane_results.png)
