@@ -30,7 +30,7 @@ for End-to-End HD Map Construction</h3>
 
 | Method | Backbone | PV2BEV |BEVDeocder|Lr Schd | mAP| Config | Download |
 | :---: | :---: | :---: | :---: |  :---: |:---: | :---:|:---: |
-| ours_2 | R50 |GKT |DQ| 24ep |57.4  |[config](config/saved_memroy/nus_maptr_fusion_save_memory.py) |[model](https://1drv.ms/u/s!AklTOiULSSxpi1vwb6Pm9y1B36qn?e=aaOUMx)|
+| ours_2 | R50 |GKT |DQ| 24ep |57.4  |[config](config/saved_memroy/nus_maptr_fusion_save_memory.py) |[model](https://1drv.ms/u/s!AklTOiULSSxpjAihTlZliVZ06L7I?e=AqsAfv)|
 
 
 <div align="center"><h4> TICMapNet_t on the openlane dataset</h4></div>
@@ -45,7 +45,7 @@ for End-to-End HD Map Construction</h3>
 
 | Method | Backbone | PV2BEV |BEVDeocder|Lr Schd | mAP| Config | Download |
 | :---: | :---: | :---: | :---: |  :---: |:---: | :---:|:---: |
-| ours_2 | R50 |GKT |DQ| 24ep |28.3  |[config](config/new_split/nus_maptr_fusion_new_split.py) |[model](https://1drv.ms/u/s!AklTOiULSSxpi1vwb6Pm9y1B36qn?e=aaOUMx)|
+| ours_2 | R50 |GKT |DQ| 24ep |28.3  |[config](config/new_split/nus_maptr_fusion_new_split.py) |[model](https://1drv.ms/u/s!AklTOiULSSxpjAnuSD-wRGktdNQL?e=rzeVSc)|
 
 
 [1]A. Lilja, J. Fu, E. Stenborg, and L. Hammarstrand, "Localization is all you evaluate: Data leakage in online mapping datasets and how to fix it," in CVPR 2024, pp. 22150–22159.
