@@ -3,6 +3,18 @@
 <h3>A Tightly Coupled Temporal Fusion Pipeline
 for End-to-End HD Map Construction</h3>
 
+
+## Introduction
+<div align="center"><h4>TICMapNet is a straightforward and versatile temporal fusion pipeline designed for high-precision vectorized map construction.</h4></div>
+
+![framework](assets/pipeline.png "framework")
+
+High-Definition (HD) map construction is essential for autonomous driving to accurately understand the surrounding environment. In this paper, we propose a **Ti**ghtly **C**oupled temporal
+fusion Map Network (TICMapNet). TICMapNet breaks down the fusion process into three sub-problems: PV feature alignment, BEV feature adjustment, and Query feature fusion. By doing 
+so, we effectively integrate temporal information at different stages through three plug-and-play modules, using the proposed
+tightly coupled strategy. Unlike traditional methods, our approach does not rely on camera extrinsic parameters, offering a new perspective for addressing the visual fusion challenge
+in the field of object detection. Experimental results demonstrate that TICMapNet significantly enhances the single-frame baseline and achieves impressive performance across multiple datasets.
+
 ## Getting Started
 - [Prepare Dataset](prepare_dataset.md)
 - [Installization](Install.md)
@@ -58,3 +70,7 @@ for End-to-End HD Map Construction</h3>
 
 ![nuScenesVisualization](assets/nuScenes_results.png)  
 ![openlaneVisualization](assets/OpenLane_results.png)
+
+## Acknowledgements
+
+TICMapNet is based on [MapTR](https://github.com/hustvl/MapTR). It is also greatly inspired by the following outstanding contributions to the open-source community:[BEVFormer](https://github.com/fundamentalvision/BEVFormer),  [StreamMapNet](https://github.com/yuantianyuan01/StreamMapNet),[BEVFusion](https://github.com/mit-han-lab/bevfusion),[GKT](https://github.com/hustvl/GKT),[mmdetection3d](https://github.com/open-mmlab/mmdetection3d).
