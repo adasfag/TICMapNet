@@ -5,15 +5,15 @@ for End-to-End HD Map Construction</h3>
 
 
 ## Introduction
-<div align="center"><h4>TICMapNet is a straightforward and versatile temporal fusion pipeline designed for high-precision vectorized map construction.</h4></div>
+<div align="center"><h4>TICMapNet is a simple and general temporal fusion pipeline designed for vectorized HD map construction.</h4></div>
 
 ![framework](assets/pipeline.png "framework")
 
-High-Definition (HD) map construction is essential for autonomous driving to accurately understand the surrounding environment. In this paper, we propose a **Ti**ghtly **C**oupled temporal
-fusion Map Network (TICMapNet). TICMapNet breaks down the fusion process into three sub-problems: PV feature alignment, BEV feature adjustment, and Query feature fusion. By doing 
-so, we effectively integrate temporal information at different stages through three plug-and-play modules, using the proposed
-tightly coupled strategy. Unlike traditional methods, our approach does not rely on camera extrinsic parameters, offering a new perspective for addressing the visual fusion challenge
-in the field of object detection. Experimental results demonstrate that TICMapNet significantly enhances the single-frame baseline and achieves impressive performance across multiple datasets.
+High-Definition (HD) map construction is essential for autonomous driving to accurately understand the surrounding environment. In this paper, we propose a **Ti**ghtly **C**oupled temporal 
+fusion Map Network (TICMapNet). TICMapNet breaks down the fusion process into three sub-problems: PV feature alignment, BEV feature adjustment, and Query feature fusion. By doing so, we 
+effectively integrate temporal information at different stages through three plug-and-play modules, using the proposed tightly coupled strategy. Our approach does not rely on camera extrinsic 
+parameters, offering a new perspective for addressing the visual fusion challenge in the field of object detection. Experimental results demonstrate that TICMapNet significantly enhances 
+the single-frame baseline and achieves impressive performance across multiple datasets.
 
 ## Getting Started
 - [Prepare Dataset](prepare_dataset.md)
