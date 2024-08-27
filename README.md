@@ -59,7 +59,7 @@ High-Definition (HD) map construction is essential for autonomous driving to acc
 | Historical frames | Backbone | PV2BEV |BEVDeocder|Lr Schd | mAP| Config | Download |
 | :---: | :---: | :---: | :---: |  :---: |:---: | :---:|:---: |
 | 1 | R50 |GKT |DQ| 24ep |59.0  |[config](config/fusion/tiomapnet_fusion_mutiframe.py) |[model](https://1drv.ms/u/s!AklTOiULSSxpi1vwb6Pm9y1B36qn?e=aaOUMx)|
-| 2 | R50 |GKT |DQ| 24ep |60.1  |[config](config/fusion/tiomapnet_fusion_mutiframe.py) |[model](https://1drv.ms/u/s!AklTOiULSSxpjAnuSD-wRGktdNQL?e=rzeVSc)|
+| 2 | R50 |GKT |DQ| 24ep |60.1  |[config](config/fusion/tiomapnet_fusion_mutiframe.py) |[model](https://1drv.ms/u/s!AklTOiULSSxpjB0V3mAq3p8lzMNG?e=59ogUT)|
 | 3 | R50 |GKT |DQ| 24ep |61.3  |[config](config/fusion/tiomapnet_fusion_mutiframe.py) |[model](https://1drv.ms/u/s!AklTOiULSSxpjAnuSD-wRGktdNQL?e=rzeVSc)|
 
 
