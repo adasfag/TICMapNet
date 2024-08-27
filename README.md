@@ -50,8 +50,8 @@ High-Definition (HD) map construction is essential for autonomous driving to acc
 
 | Method | Backbone | PV2BEV |BEVDeocder|Lr Schd | mAP| Config | Download |
 | :---: | :---: | :---: | :---: |  :---: |:---: | :---:|:---: |
-| ours_2[1] | R50 |GKT |DQ| 24ep |28.3  |[config](config/new_split/nus_maptr_fusion_new_split.py) |[model](https://1drv.ms/u/s!AklTOiULSSxpjAnuSD-wRGktdNQL?e=rzeVSc)|
-| ours_2[2] | R50 |GKT |DQ| 24ep |32.9  |[config](config/new_split/ticmapnet_newsplit_stream.py) |[model](https://1drv.ms/u/s!AklTOiULSSxpjAnuSD-wRGktdNQL?e=rzeVSc)|
+| ours_2<sup>[1]</sup> | R50 |GKT |DQ| 24ep |28.3  |[config](config/new_split/nus_maptr_fusion_new_split.py) |[model](https://1drv.ms/u/s!AklTOiULSSxpjAnuSD-wRGktdNQL?e=rzeVSc)|
+| ours_2<sup>[2]</sup> | R50 |GKT |DQ| 24ep |32.9  |[config](config/new_split/ticmapnet_newsplit_stream.py) |[model](https://1drv.ms/u/s!AklTOiULSSxpjAnuSD-wRGktdNQL?e=rzeVSc)|
 
 
 <div align="center"><h4> More Frames Results on the nuScenes validation dataset</h4></div>
@@ -64,17 +64,30 @@ High-Definition (HD) map construction is essential for autonomous driving to acc
 
 
 
-[1]A. Lilja, J. Fu, E. Stenborg, and L. Hammarstrand, "Localization is all you evaluate: Data leakage in online mapping datasets and how to fix it," in CVPR 2024, pp. 22150–22159.
-
-[2]T. Yuan, Y. Liu, Y. Wang, Y. Wang and H. Zhao, "StreamMapNet: Streaming Mapping Network for Vectorized Online HD Map Construction," in WACV 2024, pp. 7341-7350.
-
-
 
 ## Qualitative results on nuScenes validation dataset and OpenLane 300 validation dataset
 <div align="center"><h4> TICMapNet maintains stable and robust map construction quality in various driving scenes.</h4></div>
 
 ![nuScenesVisualization](assets/nuScenes_results.png)  
 ![openlaneVisualization](assets/OpenLane_results.png)
+
+
+<div align="center"><h4> TICMapNet and TICMapNet_l visualization results on the nuScenes validation dataset.</h4></div>
+![nuScenesVisualization](assets/various_bev_resolution.png)
+
+<div align="center"><h4> Some failure cases on the new nuScenes validation dataset<sup>[2]<sup></h4></div>
+<div align="center">
+
+![nuScenesVisualization](assets/some_faiure_cases.png)
+
+
+
+<div align="left">
+
+[1]A. Lilja, J. Fu, E. Stenborg, and L. Hammarstrand, "Localization is all you evaluate: Data leakage in online mapping datasets and how to fix it," in CVPR 2024, pp. 22150–22159.
+
+[2]T. Yuan, Y. Liu, Y. Wang, Y. Wang and H. Zhao, "StreamMapNet: Streaming Mapping Network for Vectorized Online HD Map Construction," in WACV 2024, pp. 7341-7350.
+
 
 
 
