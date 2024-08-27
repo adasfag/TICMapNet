@@ -73,9 +73,11 @@ High-Definition (HD) map construction is essential for autonomous driving to acc
 
 
 <div align="center"><h4> TICMapNet and TICMapNet_l visualization results on the nuScenes validation dataset.</h4></div>
+
 ![nuScenesVisualization](assets/various_bev_resolution.png)
 
 <div align="center"><h4> Some failure cases on the new nuScenes validation dataset<sup>[2]<sup></h4></div>
+
 <div align="center">
 
 ![nuScenesVisualization](assets/some_faiure_cases.png)
