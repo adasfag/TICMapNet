@@ -31,6 +31,15 @@ High-Definition (HD) map construction is essential for autonomous driving to acc
 | ours_2 | R50 |GKT |DQ| 10ep |60.6  |[config](config/fusion/openlane_tiofusiondq_r50e24.py) |[model](https://1drv.ms/u/s!AklTOiULSSxpi1pLXNxq2qTj8jN2?e=piUU7h)|
 
 
+
+<div align="center"><h4> Results on the new nuScenes validation dataset</h4></div>
+
+| Method | Backbone | PV2BEV |BEVDeocder|Lr Schd | mAP| Config | Download |
+| :---: | :---: | :---: | :---: |  :---: |:---: | :---:|:---: |
+| ours_2<sup>[1]</sup> | R50 |GKT |DQ| 24ep |28.3  |[config](config/new_split/nus_maptr_fusion_new_split.py) |[model](https://1drv.ms/u/s!AklTOiULSSxpjAnuSD-wRGktdNQL?e=rzeVSc)|
+| ours_2<sup>[2]</sup> | R50 |GKT |DQ| 24ep |32.9  |[config](config/new_split/ticmapnet_newsplit_stream.py) |[model](https://1drv.ms/u/s!AklTOiULSSxpjB5kUNQ6pi6yfR8f?e=vPH8eb)|
+
+
 <div align="center"><h4> Results of TICMapNet_t on the nuScenes validation dataset</h4></div>
 
 | Method | Backbone | PV2BEV |BEVDeocder|Lr Schd | mAP| Config | Download |
@@ -44,14 +53,6 @@ High-Definition (HD) map construction is essential for autonomous driving to acc
 | :---: | :---: | :---: | :---: |  :---: |:---: | :---:|:---: |
 | ours_2 | R50 |GKT |VA| 10ep |59.7  |[config](config/saved_memroy/openlane_maptr_fusion_savememory.py) |[model](https://1drv.ms/u/s!AklTOiULSSxpjAemTymfm13wfMQb?e=0Bez0s)|
 
-
-
-<div align="center"><h4> Results on the new nuScenes validation dataset</h4></div>
-
-| Method | Backbone | PV2BEV |BEVDeocder|Lr Schd | mAP| Config | Download |
-| :---: | :---: | :---: | :---: |  :---: |:---: | :---:|:---: |
-| ours_2<sup>[1]</sup> | R50 |GKT |DQ| 24ep |28.3  |[config](config/new_split/nus_maptr_fusion_new_split.py) |[model](https://1drv.ms/u/s!AklTOiULSSxpjAnuSD-wRGktdNQL?e=rzeVSc)|
-| ours_2<sup>[2]</sup> | R50 |GKT |DQ| 24ep |32.9  |[config](config/new_split/ticmapnet_newsplit_stream.py) |[model](https://1drv.ms/u/s!AklTOiULSSxpjB5kUNQ6pi6yfR8f?e=vPH8eb)|
 
 
 <div align="center"><h4> More Frames Results on the nuScenes validation dataset</h4></div>
