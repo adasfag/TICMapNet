@@ -63,7 +63,7 @@ High-Definition (HD) map construction is essential for autonomous driving to acc
 | 2 | R50 |GKT |DQ| 24ep |60.1  |[config](config/fusion/tiomapnet_fusion_mutiframe.py) |[model](https://1drv.ms/u/s!AklTOiULSSxpjB0V3mAq3p8lzMNG?e=59ogUT)|
 | 3 | R50 |GKT |DQ| 24ep |61.3  |[config](config/fusion/tiomapnet_fusion_mutiframe.py) |[model](https://1drv.ms/u/s!AklTOiULSSxpjCH9tBagndcNypB_?e=5NZ6bh)|
 
-Notes:
+**Notes**:
 
 Ours_1 employs [MapTR](https://github.com/hustvl/MapTR) as a single-frame baseline, and ours_2 introduces[Decoupled Query](https://github.com/hustvl/MapTR)  based on ours_1.
 
