@@ -27,6 +27,7 @@ pip install ninja
 
 Using the gcc compiler for linux and MSVC for windows, execute in the project root directory 
 
+
 ```bash
 python setup.py develop  
 ```  

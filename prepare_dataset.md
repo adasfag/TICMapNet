@@ -18,6 +18,7 @@ python tools/generate_data.py --dataset nuscenes --root-path ./data/nuscenes --o
 
 Using the above code will generate `all_cam_nuscenes_map_{train,val}.pkl`, which contain local vectorized map annotations.
 
+
 **Folder structure**
 ```
 TIOFUSION
