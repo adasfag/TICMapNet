@@ -66,7 +66,7 @@ High-Definition (HD) map construction is essential for autonomous driving to acc
 
 **Notes**:
 
-**ours_1** employs [MapTR](https://github.com/hustvl/MapTR) as a single-frame baseline, and **ours_2** introduces[Decoupled Query](https://github.com/hustvl/MapTR)  based on **ours_1**.
+**ours_1** employs [MapTR](https://github.com/hustvl/MapTR) as a single-frame baseline, and **ours_2** introduces [Decoupled Query](https://github.com/hustvl/MapTR) based on **ours_1**.
 
 
 
