@@ -72,6 +72,16 @@ High-Definition (HD) map construction is essential for autonomous driving to acc
 
 
 
+
+
+
+
+
+
+
+
+
+
 ## Qualitative results on nuScenes validation dataset and OpenLane 300 validation dataset
 <div align="center"><h4> TICMapNet maintains stable and robust map construction quality in various driving scenes.</h4></div>
 
@@ -99,6 +109,16 @@ High-Definition (HD) map construction is essential for autonomous driving to acc
 
 
 
+
+
+
+
+## Qualitative results on self-collected dataset
+<div align="center"><h4> TICMapNet maintains stable and robust map construction quality compared with single baseline.</h4></div>
+### *TICMapNet on self-collected dataset*
+[**email**](https://1drv.ms/v/c/692c490b253a5349/EdZiRUXUgtpCnoGuVggfP1MBv1cga6hOJaLBAJrrDAq3pg?e=11qn31)
+### *MapTR on self-collected dataset*
+[**email**](https://1drv.ms/v/c/692c490b253a5349/EabOhqxCabNEhvTZXIwiu9YBtMGiMbIl_OE9_MF5ZBTBhA?e=K8ni66)
 
 ## Acknowledgements
 
