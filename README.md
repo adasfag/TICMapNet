@@ -6,6 +6,15 @@
 ## Introduction
 <div align="center"><h4>TICMapNet is a simple and general temporal fusion pipeline designed for vectorized HD map construction.</h4></div>
 
+Wenzhao Qiu<sup>1</sup>,Shanmin Pang<sup>1 :email:</sup>,Hao Zhang<sup>1</sup>,Jianwu Fang<sup>1</sup>,Jianru Xue<sup>1</sup>
+
+<sup>1</sup> the School of Software Engineering, Xi’an Jiaotong University
+
+(<sup>:email:</sup>) corresponding author
+
+accepted as **RA-L**
+
+
 ![framework](assets/pipeline.png "framework")
 High-Definition (HD) map construction is essential for autonomous driving to accurately understand the surrounding environment. In this paper, we propose a  **Ti**ghtly **C**oupled temporal fusion Map Network (TICMapNet). TICMapNet breaks down the fusion process into three sub-problems: PV feature alignment, BEV feature adjustment, and Query feature fusion. By doing so, we effectively integrate temporal information at different stages through three plug-and-play modules, using the proposed tightly coupled strategy. Our approach does not rely on camera extrinsic parameters, offering a new perspective for addressing the visual fusion challenge in the field of object detection. Experimental results demonstrate that TICMapNet significantly enhances the single-frame baseline and achieves impressive performance across multiple datasets.
 
