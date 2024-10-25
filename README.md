@@ -9,7 +9,7 @@
 
 Wenzhao Qiu<sup>1</sup>,Shanmin Pang<sup>1 :email:</sup>,Hao Zhang<sup>1</sup>,Jianwu Fang<sup>1</sup>,Jianru Xue<sup>1</sup>
 
-<sup>1</sup> the School of Software Engineering, Xi’an Jiaotong University
+<sup>1</sup> Xi’an Jiaotong University
 
 (<sup>:email:</sup>) corresponding author
 
