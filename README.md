@@ -1,6 +1,6 @@
 <div align="left">
 <div align="center"><h1>TICMapNet</h1>
-<h3>A Tightly Coupled Temporal Fusion Pipeline for End-to-End HD Map Construction</h3></div>
+<h3>A Tightly Coupled Temporal Fusion Pipeline for Vectorized HD Map Learning</h3></div>
 
 
 ## Introduction
