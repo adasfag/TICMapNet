@@ -4,6 +4,7 @@
 
 
 ## Introduction
+<div align="center">
 <div align="center"><h4>TICMapNet is a simple and general temporal fusion pipeline designed for vectorized HD map construction.</h4></div>
 
 Wenzhao Qiu<sup>1</sup>,Shanmin Pang<sup>1 :email:</sup>,Hao Zhang<sup>1</sup>,Jianwu Fang<sup>1</sup>,Jianru Xue<sup>1</sup>
@@ -13,6 +14,8 @@ Wenzhao Qiu<sup>1</sup>,Shanmin Pang<sup>1 :email:</sup>,Hao Zhang<sup>1</sup>,J
 (<sup>:email:</sup>) corresponding author
 
 accepted as **RA-L**
+
+</div>
 
 
 ![framework](assets/pipeline.png "framework")
