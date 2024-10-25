@@ -128,7 +128,11 @@ High-Definition (HD) map construction is essential for autonomous driving to acc
 ## Qualitative results on self-collected dataset
 <div align="center"><h4> TICMapNet maintains stable and robust map construction quality compared with the single baseline.</h4></div>
 
+<div align="center">
+  
 [**video**](https://1drv.ms/v/c/692c490b253a5349/ETdMmk3utU5Omr8S0zshyWIBhSAfuzsFwbbb7j0egVb0EQ?e=caWAhP)
+
+</div>
 
 ## Acknowledgements
 
