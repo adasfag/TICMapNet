@@ -129,3 +129,19 @@ High-Definition (HD) map construction is essential for autonomous driving to acc
 ## Acknowledgements
 
 TICMapNet is based on [MapTR](https://github.com/hustvl/MapTR). It is also greatly inspired by the following outstanding contributions to the open-source community:[BEVFormer](https://github.com/fundamentalvision/BEVFormer),  [StreamMapNet](https://github.com/yuantianyuan01/StreamMapNet),[BEVFusion](https://github.com/mit-han-lab/bevfusion),[GKT](https://github.com/hustvl/GKT),[mmdetection3d](https://github.com/open-mmlab/mmdetection3d).
+
+## Citation
+If you find TICMapNet is useful in your research, please consider citing it by the following BibTeX entry.
+```bibtex
+@ARTICLE{10740793,
+  author={Qiu, Wenzhao and Pang, Shanmin and Zhang, Hao and Fang, Jianwu and Xue, Jianru},
+  journal={IEEE Robotics and Automation Letters}, 
+  title={TICMapNet: A Tightly Coupled Temporal Fusion Pipeline for Vectorized HD Map Learning}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={1-8},
+  keywords={Feature extraction;History;Cameras;Object detection;Encoding;Three-dimensional displays;Decoding;Pipelines;Visualization;Manuals;Vectorized HD map;Temporal fusion},
+  doi={10.1109/LRA.2024.3490384}}
+}
+```
